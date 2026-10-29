@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://proverka-zayavok.veridok.ru/price.html">
+<title>Цена — проверка заявок по требованиям закупки</title>
+<meta name="description" content="Цена сверки заявок подрядчиков с требованиями коммерческой закупки: таблица соответствия по пунктам и список причин отклонения.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">Сверка заявок</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Требования по пунктам, таблица соответствия, ссылки на документы и список причин отклонения.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Одна закупка</b><span>4 900 ₽ за закупку — до 10 заявок.</span><br><a class="btn" href="pay.html?plan=zakupka" data-ev="payment_click click_pay_zakupka">Оплатить — 4 900 ₽</a></div>
+      <div class="card"><b>Тендерному отделу</b><span>14 900 ₽ в месяц — до 5 закупок.</span><br><a class="btn" href="pay.html?plan=otdel" data-ev="payment_click click_pay_otdel">Оплатить — 14 900 ₽</a></div>
+    </div>
+    <p class="note nalog">Цены указаны без НДС.</p>
+    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Сверка заявок по загруженным документам. Решение о допуске и отклонении заявок принимает заказчик.</p>
+</div></footer>
+
+</body>
+</html>
